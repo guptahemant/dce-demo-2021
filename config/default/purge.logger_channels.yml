@@ -1,0 +1,29 @@
+channels:
+  -
+    id: purgers
+    grants:
+      - 0
+      - 2
+      - 3
+  -
+    id: queue
+    grants:
+      - 0
+      - 2
+      - 3
+  -
+    id: diagnostics
+    grants:
+      - 3
+  -
+    id: purger_akamai_tag_e8f8f0182a
+    grants:
+      - 0
+      - 2
+      - 3
+  -
+    id: purger_akamai_everything_dfe566d9d5
+    grants:
+      - 0
+      - 2
+      - 3

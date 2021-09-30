@@ -18,12 +18,17 @@
         "composer/installers": "^1.9",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-project-message": "^9.2",
-        "drupal/core-recommended": "^9.2"
+        "drupal/core-recommended": "^9.2",
+        "drupal/purge_ajax_processor": "^1.0",
+        "drupal/purge_akamai_optimizer": "^1.1",
+        "drupal/purge_control": "^1.0",
+        "drupal/purge_everything_queuer": "^1.1",
+        "drupal/purge_queues": "^1.1"
     },
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "sort-packages": true

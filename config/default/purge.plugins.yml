@@ -1,0 +1,10 @@
+purgers:
+  -
+    order_index: 2
+    instance_id: e8f8f0182a
+    plugin_id: akamai_tag
+  -
+    order_index: 3
+    instance_id: dfe566d9d5
+    plugin_id: akamai_everything
+queue: database_unique

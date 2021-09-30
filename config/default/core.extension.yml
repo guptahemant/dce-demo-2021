@@ -1,4 +1,5 @@
 module:
+  akamai: 0
   automated_cron: 0
   big_pipe: 0
   block: 0
@@ -26,9 +27,17 @@ module:
   menu_ui: 0
   node: 0
   options: 0
-  page_cache: 0
   path: 0
   path_alias: 0
+  purge: 0
+  purge_ajax_processor: 0
+  purge_akamai_optimizer: 0
+  purge_control: 0
+  purge_drush: 0
+  purge_everything_queuer: 0
+  purge_queuer_coretags: 0
+  purge_queues: 0
+  purge_ui: 0
   quickedit: 0
   rdf: 0
   search: 0

@@ -1,0 +1,12 @@
+replace_tags_prefix:
+  - block_view
+  - config
+  - block_content
+  - menu_link_content
+disable_hashing: false
+monitor_performance: false
+expiry: '3'
+replace_threshold: 500
+disable_akamai_caching: false
+_core:
+  default_config_hash: UjWoFtf6BW3BIlEpeql54Q5s-1awt0VPLSGCZs8mt3k
