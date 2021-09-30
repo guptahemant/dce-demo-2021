@@ -1,0 +1,20 @@
+uuid: bcd7dd59-77f0-4341-add5-ef0ad95f428e
+langcode: en
+status: true
+dependencies:
+  module:
+    - dce_demo
+  theme:
+    - bartik
+id: cookievariationblock
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: cookie_variation_block
+settings:
+  id: cookie_variation_block
+  label: 'Cookie variation block'
+  provider: dce_demo
+  label_display: visible
+visibility: {  }

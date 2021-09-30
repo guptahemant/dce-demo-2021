@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * Configures akamai related site identifiers.
+ */
+
+/**
+ * Implements hook_akamai_site_identifier_alter().
+ */
+function dce_demo_akamai_site_identifier_alter(&$site_identifier_tag) {
+  // Ideally in a multisite setup this value will be derived by reading server
+  // parameters to uniquely generate a name for each site.
+  $site_identifier_tag = "dce_demo";
+}
+
+/**
+ * Implements hook_akamai_file_identifier_alter().
+ */
+function dce_demo_akamai_file_identifier_alter(&$file_identifier_tag) {
+  // For purging the files correctly, this data needs to be added in relevant
+  // response header for each cache layer using htaccess or cache layer config
+  // like in VCL files for varnish and in property settings inside akamai.
+  $file_identifier_tag = 'akamai_file_default';
+}

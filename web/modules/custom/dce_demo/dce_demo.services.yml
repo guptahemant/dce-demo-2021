@@ -1,0 +1,5 @@
+services:
+  dce_demo.finish_response_subscriber:
+    class: Drupal\dce_demo\EventSubscriber\FinishResponseSubscriber
+    tags:
+      - { name: event_subscriber }

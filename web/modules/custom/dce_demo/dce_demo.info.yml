@@ -1,0 +1,5 @@
+name: DCE demo
+type: module
+description: Provides a block to demo cache context via cookies.
+package: Sandbox
+core_version_requirement: ^8.8 || ^9

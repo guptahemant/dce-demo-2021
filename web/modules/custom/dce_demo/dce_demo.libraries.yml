@@ -1,0 +1,5 @@
+cookie_variation:
+  js:
+    js/cookie_vary.js: { attributes: { defer: true, async: true } }
+  dependencies:
+    - core/jquery
