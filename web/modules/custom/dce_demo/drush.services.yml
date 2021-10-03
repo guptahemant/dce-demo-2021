@@ -1,0 +1,5 @@
+services:
+  dce_demo.commands:
+    class: \Drupal\dce_demo\Commands\DceDemoCommands
+    tags:
+      - { name: drush.command }
