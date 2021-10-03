@@ -3,13 +3,13 @@ This is a demo repository intended to demonstrate how an effective cache control
 and effective purge mechanism can be setup by using Drupal and Akamai.
 
 # Purge Modules added
-Purge: https://www.drupal.org/project/purge
-Akamai: https://www.drupal.org/project/akamai
-Purge queues: https://www.drupal.org/project/purge_queues
-Purge control: https://www.drupal.org/project/purge_control
-Purge akamai optimizer: https://www.drupal.org/project/purge_akamai_optimizer
-Purge everything Queuer: https://www.drupal.org/project/purge_everything_queuer
-Purge ajax processor: https://www.drupal.org/project/purge_ajax_processor
+* Purge: https://www.drupal.org/project/purge
+* Akamai: https://www.drupal.org/project/akamai
+* Purge queues: https://www.drupal.org/project/purge_queues
+* Purge control: https://www.drupal.org/project/purge_control
+* Purge akamai optimizer: https://www.drupal.org/project/purge_akamai_optimizer
+* Purge everything Queuer: https://www.drupal.org/project/purge_everything_queuer
+* Purge ajax processor: https://www.drupal.org/project/purge_ajax_processor
 
 
 # Following things are included:
