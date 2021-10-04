@@ -1,6 +1,7 @@
 # Introduction
 This is a demo repository intended to demonstrate how an effective cache control
 and effective purge mechanism can be setup by using Drupal and Akamai.
+This setup was demonstrated on drupal con europe 2021, Seesion Deck can be found at https://docs.google.com/presentation/d/1kNkMEyXyUMw6YWuFGibSUIlV0I7q5dbSMk5xTb9jQ38
 
 # Purge Modules added
 * Purge: https://www.drupal.org/project/purge
