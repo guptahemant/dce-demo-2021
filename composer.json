@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "cweagans/composer-patches": "^1.7",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-project-message": "^9.2",
         "drupal/core-recommended": "^9.2",
@@ -32,12 +33,18 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "preferred-install": "source"
     },
     "extra": {
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
+            }
+        },
+        "patches": {
+            "drupal/akamai": {
+                "In Akamai tag purger apply formatting after the tags has been altered by PURGE_CREATION": "https://www.drupal.org/files/issues/2020-07-24/fix_formatting-3160999-6.patch"
             }
         },
         "installer-paths": {
